@@ -1,0 +1,7 @@
+Pretende-se criar um sistema de gerência de contatos de usuários. Para tanto se obtem as seguintes informações:
+O usuário do sistema possui nome, login e senha de acesso. Qualquer pessoa pode realizar seu cadastro no sistema.
+Uma vez cadastrado no sistema o usuário pode, após efetuar o login, gerenciar (incluir, alterar e remover) todos os seus contatos. Um contato possui nome, endereço, telefone e e-mail.
+
+Elabore um diagrama de caso de uso e o diagrama de classes do sistema.
+Codifique e teste todas as classes do sistema.
+Codifique a interface gráfica do sistema.

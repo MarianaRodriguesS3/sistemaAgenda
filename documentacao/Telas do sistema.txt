@@ -1,0 +1,26 @@
+Telas do sistema
+	CadUsuario
+		Tela de cadastro de um usuário
+			Possibilita que novos usuários sejam cadastrados no sistema
+			Tela com input para inserção dos dados dos usuário e um botão para cadastro
+	login
+		Tela de login para um usuário
+			Possibilita que um usuário faça login no sistema
+	agendaUsuario
+		Tela inicial de um usuário logado no sistema
+			Possibilita que o usuário acesse todas as funcionalidades do sistema
+			Possibilita que o usuário acesse a tela de cadastro de um novo contato
+			Possibilita que o usuário acesse a tela de alteração de dados cadastrais
+			Mostra todos os contatos com a possibilidade de filtagem por nome
+				Para cada contato apresenta icone de acesso a telas de alteração de dados e remoção			
+	alterarDados
+		Tela de alteração dos dados do usuário
+			Possibilita que o usuário altere seus dados cadastrais
+	cadastrarContato
+		Tela de cadastro de um contato do usuário
+			Possibilita que o usuário cadastre um novo contato
+			Tela com input para inserção dos dados do contato novo e um botão para cadastro
+	alterarContato
+		Tela de alteração de dados de um contato do usuário
+			Possibilita que o usuário altere os dados de um contato
+			Tela com input que apresenta os dados atuais do contato e possibilita sua edição e um botão para alteração

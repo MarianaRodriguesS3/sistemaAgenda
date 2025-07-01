@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Agenda: Agenda de Contatos</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body id="bodyAgenda">
+    <fieldset id="flsAgenda">
+        <!-- Botão de sair dentro do fieldset -->
+        <button class="btnSair">Sair</button>
+
+        <h1>Agenda de Contatos</h1>
+
+        <div class="botoes">
+            <label for="buscar"><input type="text" id="buscar" placeholder="Buscar contato"></label>
+            <a href="adicionarContato.html"><button id="btnAdicionar">Adicionar Contato</button></a>
+            <a href="alterarDadosCadastrais.html"><button id="btnAlterar">Alterar Dados Cadastrais</button></a>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th>E-mail</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Exemplo de linha da tabela -->
+                <tr>
+                    <td>João da Silva</td>
+                    <td>(11) 1234-5678</td>
+                    <td>Rua das Flores, 123</td>
+                    <td>joao@example.com</td>
+                    <td>
+                        <a href="alterarContato.html" class="btnAlterarContato">Alterar</a>
+                        <a class="btnExcluirContato" href="excluirContato.html">Excluir</a>
+                    </td>
+                </tr>
+                <!-- Outras linhas da tabela seriam adicionadas dinamicamente via backend -->
+            </tbody>
+        </table>
+    </fieldset>
+
+    <script src="../js/paginaAgenda.js" type="module"></script>
+</body>
+
+</html>
